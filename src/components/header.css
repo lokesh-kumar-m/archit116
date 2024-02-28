@@ -1,0 +1,48 @@
+.navbar{
+  padding-left: 1.6rem;
+  padding-right: 10%;
+  padding-top: 0;
+  padding-bottom: 0;
+  z-index: 25;
+  background-color:transparent;
+  transition: all 5s ease-in-out;
+}
+.navbar-anim{
+  animation: navigation 1s 1 ease-in-out forwards;
+}
+@keyframes navigation {
+  0%{
+    background: transparent;
+  }
+  100%{
+    background-color: #b3ceef;
+  }
+}
+.home{
+  height: 50px;
+  width: 250px;
+}
+.home img{
+  height: 100%;
+  width: 100%;
+}
+.navlink-items{
+  padding: .25rem .6rem;
+  text-align: center;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+  color: white;
+}
+.navbar-toggler{
+  font-size: 12px;
+  color: white;
+}
+.nav-link{
+  font-weight: 700;
+  font-variant: all-petite-caps;
+  font-size: 23px;
+}
+.dropdown-menu{
+  width: auto;
+  text-align: center;
+}

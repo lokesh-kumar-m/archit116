@@ -1,0 +1,36 @@
+.abt{
+  padding: 3.9rem 7.1rem;
+  margin: auto;
+  padding-bottom: 2.4rem;
+}
+.card{
+  border:none;
+  box-shadow: 0 5px 50px -10px rgba(0, 0, 0, 0.1);
+  transition: 0.4s ease-out;
+}
+.card img{
+  height: 100%;
+  width: 100%;
+}
+.card:hover{
+  box-shadow: 0 10px 60px 0 rgba(0, 0, 0, 0.1);
+}
+.ah{
+  text-align: left;
+  margin:0;
+  width: 10%;
+  border-top: 3px solid #00e9ff;
+  border-radius: 0 0 100px 100px;
+  margin-top: .5rem;
+  padding-bottom: .5rem;
+}
+.af{
+  font-weight: 300;
+  font-family: inherit;
+}
+.af strong{
+  font-weight:600;
+}
+.pg{
+  font-family: 'Palanquin', sans-serif;
+}

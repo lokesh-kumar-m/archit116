@@ -1,0 +1,54 @@
+#msg1{
+  opacity: 0;
+  animation: moveup 2s infinite linear;
+  animation-fill-mode: forwards;
+}
+@keyframes moveup {
+  0%{
+    opacity: 0;
+    transform:translateY(12px);
+  }
+  50%{
+    opacity: 1;
+    transform:translateY(-2px);
+  }
+  100%{
+    transform:translateY(-14px);
+    opacity: 0.1;
+  }
+}
+#msg2{
+  padding-bottom: 20px;
+  opacity: 0;
+  animation: moveup1 2s infinite linear;
+  animation-delay: 1s;
+}
+@keyframes moveup1 {
+  0%{
+    opacity: 0;
+    transform:translateY(5px);
+  }
+  50%{
+    opacity: 1;
+    transform:translateY(-10px);
+  }
+  100%{
+    opacity: 0.1;
+    transform:translateY(-25px);
+  }
+}
+#orbit{
+  transform-origin: center;
+  transform-box:fill-box;
+  animation: rot 5s infinite linear;
+}
+@keyframes rot {
+  0%{
+
+    transform: rotateZ(0deg);
+  }
+  100%{
+
+      transform: rotateZ(360deg);
+  }
+}

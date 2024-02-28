@@ -1,0 +1,26 @@
+.p{
+  padding-top: .9rem
+}
+.p h2{
+  text-align: center;
+  padding-bottom: 1.4rem;
+}
+.pc{
+  height: 18rem;
+  width: 13rem;
+  overflow: hidden;
+  margin:auto;
+  box-shadow:0 5px 50px -10px rgba(0, 0, 0, 0.1);
+  transition: all .4s ease;
+  padding: .5rem;
+  cursor:pointer;
+}
+.pc:hover{
+  box-shadow: 0 10px 60px 0 rgba(0, 0, 0, 0.1);
+}
+.pc img{
+  transition: all .4s ease-in-out;
+}
+.pc img:hover{
+  transform: scale(1.1);
+}

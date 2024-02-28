@@ -1,0 +1,43 @@
+.trx{
+  margin: auto;
+}
+.cir{
+  border-radius: 50%/50%;
+  overflow: hidden;
+}
+.yck{
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.ttm{
+  padding: 3.4rem 5rem;
+}
+.cir1{
+    border-radius: 50%/50%;
+    background-color:white;
+    padding:.4rem;
+    border: 2px solid yellow;
+}
+.nmx{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  margin-top: 1.2rem;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.cirx{
+  padding:.9rem 1rem;
+  transition: all .5s ease-in-out;
+  background-color:#ffff;
+}
+.cirx:hover{
+  box-shadow: 14px 15px 63px 15px rgba(0, 0, 0, 0.19);
+  transform: translateY(9px);
+}
+.cirx:hover .cir1{
+  border:0px solid #ffff;
+}
+.cirx:hover{
+  background-color:#f5e60487;
+  border-radius: 12px;
+}

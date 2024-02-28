@@ -1,0 +1,41 @@
+.carosel{
+  height: 35rem;
+  overflow: hidden;
+  position: relative;
+
+}
+.carosel img{
+  height:100%;
+  width: 100%;
+  background-size: cover;
+}
+.carosel li{
+  border-radius: 50%/50%;
+  height: 1rem;
+  width: 1rem;
+}
+.carousel-control-next{
+  margin-top: 15%;
+}
+.carousel-control-prev{
+  margin-top: 15%;
+}
+.carousel-caption{
+  top:40%;
+  left: 50%;
+  transform: translate(-50%,-10%);
+}
+.frix{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+.frix1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin-top: 0;
+  margin-bottom: .5rem;
+}

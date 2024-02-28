@@ -1,0 +1,66 @@
+.sh{
+  text-align: center;
+  margin:.2rem auto;
+  width: 8%;
+  border-top: 3px solid #00e9ff;
+  border-radius: 0 0 100px 100px;
+  padding-bottom: .1rem;
+}
+.x{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  margin-top: 1.2rem;
+}
+.s{
+  padding: 1.4rem 7rem;
+}
+.s h2{
+  text-align: center;
+  padding-bottom: 1.4rem;
+}
+.sx{
+  height: 18rem;
+  width: 18rem;
+  overflow: hidden;
+  margin:auto;
+  box-shadow:0 5px 50px -10px rgba(0, 0, 0, 0.1);
+  transition: all .4s ease;
+  cursor: pointer;
+}
+.sx:hover{
+  box-shadow: 0 10px 90px 5px rgba(0, 0, 0, 0.19);
+}
+.sx img{
+  transition: all .4s ease-in-out;
+}
+.sx img:hover{
+  transform: scale(1.1);
+}
+.f{  opacity: 0;}
+.fading{
+  animation: fade 1s 1 ease-in-out forwards;
+}
+@keyframes fade {
+  0%{
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  50%{opacity: 0.7}
+  100%{  opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.fading1{
+  animation: fade1 1s 1 ease-in-out forwards;
+}
+@keyframes fade1 {
+  0%{
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  50%{opacity: 0.7}
+  100%{  opacity: 1;
+    transform: translateY(40px);
+  }
+}
